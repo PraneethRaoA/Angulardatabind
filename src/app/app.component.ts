@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my angular app';
+  title = 'Simple Angular APP';
   numberA:number=5;
-  numberB:number=6;
+  numberB:number=5;
+  onSave(){
+    console.log("save button clicked")
+  }
 }
